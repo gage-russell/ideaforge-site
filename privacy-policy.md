@@ -67,4 +67,4 @@ We may update this Privacy Policy from time to time. Material changes will be co
 
 ## Contact
 
-Questions or requests? Email us at [privacy@example.com](mailto:gage.russell.atx@gmail.com).  
+Questions or requests? Email us at [privacy@ideaforgetechnologies.com](mailto:gage.russell.atx@gmail.com).  

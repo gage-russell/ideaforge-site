@@ -32,6 +32,20 @@ After registering, check your inbox for a verification email. Until you verify, 
 
 <img src="{{ site.baseurl }}/assets/support/login_and_registration/email-not-verified.png" alt="User tab showing missing email verification state" width="360" />
 
+## Find the verification email
+
+Look for an email titled “Verify your email” in your inbox. The message is sent from <strong>DoNotReply@mg.ideaforgetechnologie.com</strong> so you know what to expect.
+
+<img src="{{ site.baseurl }}/assets/support/login_and_registration/verify-email.png" alt="Verification email in inbox" width="360" />
+
+Tip: If you don’t see it, check your spam or junk folder, and consider searching for “Ideaforge” or the sender address above.
+
+## Verification email sender details
+
+If you’re unsure whether the email is legitimate, expand the sender/receiver details. You should see the sender as <strong>DoNotReply@mg.ideaforgetechnologie.com</strong> and your email address as the recipient.
+
+<img src="{{ site.baseurl }}/assets/support/login_and_registration/verify-email-with-sender-details.png" alt="Expanded sender and receiver details for the verification email" width="360" />
+
 ## Reset your password
 
 If you forget your password, tap Forgot Password on the login screen. Enter your email, then follow the link sent to your inbox to set a new password.

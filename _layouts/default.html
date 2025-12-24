@@ -16,7 +16,8 @@
 		<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}" />
 		<meta name="theme-color" content="#45CCC5" />
 	</head>
-		<body class="{{ page.title | slugify }}">
+				{% capture _page_url %}{{ page.permalink | default: page.url }}{% endcapture %}
+				<body class="{{ page.title | slugify }}{% if _page_url contains '/support/' %} support{% endif %}{% if _page_url == '/support/' or _page_url == '/support/index.html' %} support-home{% endif %}">
 		<header class="site-header">
 			<div class="container header-inner">
 						<a class="brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">

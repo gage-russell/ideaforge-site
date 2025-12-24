@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{{ page.title | default: site.title }}</title>
+		<meta name="description" content="{{ page.description | default: site.description }}" />
+
+		<meta property="og:title" content="{{ page.title | default: site.title }}" />
+		<meta property="og:description" content="{{ page.description | default: site.description }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}" />
+		<meta name="theme-color" content="#4f46e5" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<a class="brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+				<nav class="nav">
+					<a href="{{ "/" | relative_url }}">Home</a>
+					<a href="{{ "/support" | relative_url }}">Support</a>
+					<a href="{{ "/privacy-policy" | relative_url }}">Privacy</a>
+					<a class="cta" href="https://app.ideaforgetechnologies.com" target="_blank" rel="noopener">Open App</a>
+				</nav>
+			</div>
+		</header>
+
+		{% if page.url == "/" %}
+		<section class="hero">
+			<div class="container">
+				<h1 class="hero-title">{{ site.title }}</h1>
+				<p class="hero-lead">{{ site.description }}</p>
+				<div class="hero-actions">
+					<a class="btn btn-primary" href="https://app.ideaforgetechnologies.com" target="_blank" rel="noopener">Open App</a>
+					<a class="btn" href="{{ "/support" | relative_url }}">Get Support</a>
+				</div>
+			</div>
+		</section>
+		{% endif %}
+
+		<main class="site-main container">
+			{{ content }}
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-inner">
+				<p>© {{ "now" | date: "%Y" }} Ideaforge Technologies. All rights reserved.</p>
+				<p class="foot-links">
+					<a href="mailto:{{ site.email | default: 'gage.russell@ideaforgetechnologies.com' }}">Contact</a>
+					<a href="{{ "/privacy-policy" | relative_url }}">Privacy</a>
+					<a href="{{ "/support" | relative_url }}">Support</a>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

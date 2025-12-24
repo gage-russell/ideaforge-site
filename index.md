@@ -3,8 +3,6 @@ layout: default
 title: Ideaforge — AI-powered virtual idea incubator
 ---
 
-# Ideaforge
-
 Develop and nurture ideas with AI, then share and collaborate — your virtual incubator from concept to product.
 
 ## What you can do
@@ -24,4 +22,4 @@ Develop and nurture ideas with AI, then share and collaborate — your virtual i
 
 - [Privacy Policy](privacy-policy.md)
 - [Support](support.md)
-- Contact: [ gage.russell@ideaforgetechnologies.com](mailto: gage.russell@ideaforgetechnologies.com)
+ Contact: [gage.russell@ideaforgetechnologies.com](mailto:gage.russell@ideaforgetechnologies.com)

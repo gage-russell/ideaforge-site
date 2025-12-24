@@ -9,7 +9,7 @@ Develop and nurture ideas with AI, then share and collaborate — your virtual i
 
 ## What you can do
 
-- Brainstorm with AI and refine ideas through conversational guidance
+- Brainstorm with AI and refine ideas through conversational guidance (private preview)
 - Explore customer segments and assess competitors
 - Create groups to collaborate with your team
 - Organize ideas, discussions, and notifications in one place
@@ -23,5 +23,5 @@ Develop and nurture ideas with AI, then share and collaborate — your virtual i
 ## Learn more
 
 - [Privacy Policy](privacy-policy.md)
-- Contact: [support@example.com](mailto:support@example.com)  
-  (Replace with your real support address)
+- [Support](support.md)
+- Contact: gage.russell@ideaforgetechnologies.com

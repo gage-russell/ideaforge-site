@@ -18,10 +18,10 @@ Develop and nurture ideas with AI, then share and collaborate — your virtual i
 
 - iOS: Coming soon
 - Android: Coming soon
-- Web: https://app-dev.ideaforgetechnologies.com
+- Web: https://app.ideaforgetechnologies.com
 
 ## Learn more
 
 - [Privacy Policy](privacy-policy.md)
 - [Support](support.md)
-- Contact: gage.russell@ideaforgetechnologies.com
+- Contact: [ gage.russell@ideaforgetechnologies.com](mailto: gage.russell@ideaforgetechnologies.com)

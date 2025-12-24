@@ -10,7 +10,7 @@ If you need help with the Ideaforge app, you're in the right place. Below you'll
 
 ## Contact
 
-- Email: gage.russell@ideaforgetechnologies.com
+- Email: [ gage.russell@ideaforgetechnologies.com](mailto: gage.russell@ideaforgetechnologies.com)
 - [Privacy Policy](./privacy-policy.md)
 
 ## Quick help
@@ -21,20 +21,20 @@ If you need help with the Ideaforge app, you're in the right place. Below you'll
 3. Check your email for a verification link and tap it.
 4. Return to the app and sign in.
 
-<img src="assets/support/login.png" alt="Login screen" width="360" />
+<img src="./assets/support/login.png" alt="Login screen" width="360" />
 
-<img src="assets/support/register.png" alt="Register screen" width="360" />
+<img src="./assets/support/register.png" alt="Register screen" width="360" />
 
 Tip: If you can access the app after registering but features seem limited, tap the “User” tab at the bottom and confirm your email is verified. Some areas remain restricted until verification completes.
 
-<img src="assets/support/email-not-verified.png" alt="User tab showing missing email verification state" width="360" />
+<img src="./assets/support/email-not-verified.png" alt="User tab showing missing email verification state" width="360" />
 
 ### Reset your password
 1. On the login screen, tap “Forgot Password?”.
 2. Enter your email and submit.
 3. Tap the password reset link in the email, then set a new password.
 
-<img src="assets/support/reset-password.png" alt="Reset password form" width="360" />
+<img src="./assets/support/reset-password.png" alt="Reset password form" width="360" />
 
 ### Delete your account
 1. Open Settings → Account.
@@ -42,11 +42,11 @@ Tip: If you can access the app after registering but features seem limited, tap 
 3. Tap “Delete Account” and confirm.
 4. You’ll be signed out and your account will be permanently removed.
 
-<img src="assets/support/settings.png" alt="Settings → Account" width="360" />
+<img src="./assets/support/settings.png" alt="Settings → Account" width="360" />
 
-<img src="assets/support/danger-zone.png" alt="Danger Zone" width="360" />
+<img src="./assets/support/danger-zone.png" alt="Danger Zone" width="360" />
 
-<img src="assets/support/delete-confirm.png" alt="Delete confirmation dialog" width="360" />
+<img src="./assets/support/delete-confirm.png" alt="Delete confirmation dialog" width="360" />
 
 ## Troubleshooting
 

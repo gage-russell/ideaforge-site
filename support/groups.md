@@ -56,6 +56,64 @@ Open the invite and tap Accept to join the group. After accepting, the group wil
 
 <img src="{{ site.baseurl }}/assets/support/groups/accept-group-invite.png" alt="Accept group invite" width="360" />
 
+## Delete a group
+
+Only group owners can delete a group. You delete from the Groups list:
+
+1. Open the Groups list and find the group you want to delete.
+2. Tap the trash icon on that group’s card.
+
+<img src="{{ site.baseurl }}/assets/support/groups/delete-group.png" alt="Trash icon on a group card" width="360" />
+
+You’ll see a confirmation dialog. Deleting a group is irreversible.
+
+<img src="{{ site.baseurl }}/assets/support/delete-confirm.png" alt="Confirm deletion dialog" width="360" />
+
+Access changes when deleting a group:
+
+- What becomes inaccessible for former members:
+	- The group itself (its page, membership list, and group-only views).
+	- Ideas that were visible to them only because they were shared to this group. Those ideas will no longer appear unless the member has access through another group or a different share.
+- What remains accessible:
+	- No ideas are deleted; each user’s own ideas remain in their account.
+	- Any ideas accessible to a member via another group or a direct share remain available through those paths.
+
+## Remove a group member
+
+Group owners can remove members directly from the group page.
+
+1. Open the group.
+2. Find the member you want to remove and choose the remove option.
+
+<img src="{{ site.baseurl }}/assets/support/groups/remove-group-member.png" alt="Remove a group member" width="360" />
+
+Access changes when removing a member:
+
+- For the removed member:
+	- They lose access to content (ideas and other group-shared items) that is only available through this group.
+	- Anything they also have via another group or direct share remains accessible.
+- For other members of the group:
+	- The removed person’s ideas stop being shared with the group and will no longer appear unless they continue sharing via another group or a different share.
+	- No ideas are deleted.
+
+## Leave a group
+
+Non-owners see a “leave” option instead of delete. Leaving removes you from the group and stops sharing your ideas with its members.
+
+1. Open the Groups list and locate the group you want to leave.
+2. Tap the exit icon on that group’s card.
+
+<img src="{{ site.baseurl }}/assets/support/groups/leave-group.png" alt="Exit icon on a group card" width="360" />
+
+Access changes when you leave:
+
+- For you (the leaving member):
+	- You lose access to content (ideas and other group-shared items) that is only available through this group.
+	- Anything you also have via another group or direct share remains accessible.
+- For other members of the group:
+	- Your ideas stop being shared with the group and will no longer appear for its members unless you continue sharing via another group or a different share.
+	- No ideas are deleted.
+
 <nav class="pager" aria-label="Page navigation">
 	<a class="prev" href="{{ site.baseurl }}/support/login_and_registration/">← Previous: Login & Registration</a>
 	<a class="next" href="{{ site.baseurl }}/support/ideas/">Next: Ideas →</a>

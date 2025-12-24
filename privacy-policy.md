@@ -10,6 +10,8 @@ Effective date: December 15, 2025
 
 This Privacy Policy explains how Ideaforge ("we", "us") collects, uses, and protects your information when you use our app and website.
 
+<!-- Privacy quick links are rendered by the layout above the content to keep the policy text clean. -->
+
 ## What we collect
 
 - Account information: name, email address, and credentials (stored securely; passwords are hashed).
@@ -48,6 +50,16 @@ We retain data for as long as necessary to provide the service and for legitimat
 - Manage interests, AI model preferences, and notifications in the app.
 - Opt out of non-essential communications.
 - Depending on your location, you may have additional rights (e.g., GDPR, CCPA). To exercise rights, contact us at the address below.
+
+<!-- Quick links moved to tiles above to keep the policy concise -->
+
+## Community & content expectations
+
+Ideaforge is designed for close‑knit, private collaboration within user‑created groups. It is not intended for public content creation or open social networking. As a result:
+
+- There is no in‑app “report user” feature.
+- Manage your experience by removing members from your group or leaving a group if needed.
+- If you must report a serious concern, email us at [gage.russell@ideaforgetechnologies.com](mailto:gage.russell@ideaforgetechnologies.com).
 
 ## Children’s privacy
 

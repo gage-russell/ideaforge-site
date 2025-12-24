@@ -50,6 +50,27 @@
 		{% endif %}
 
 		<main class="site-main container">
+			{% if _page_url == '/privacy-policy.html' or _page_url == '/privacy-policy/' %}
+			<div class="card-grid" aria-label="Privacy quick links">
+				<a class="card" href="{{ site.baseurl }}/support/groups/#leave-a-group" aria-label="Leave a group">
+					<h3>Leave a group</h3>
+					<p>Stop sharing your ideas with that group and lose access to content available only through it.</p>
+				</a>
+				<a class="card" href="{{ site.baseurl }}/support/groups/#delete-a-group" aria-label="Delete a group">
+					<h3>Delete a group</h3>
+					<p>Owners can remove a group. Ideas aren’t deleted, but ex‑members lose access unless shared via another group.</p>
+				</a>
+				<a class="card" href="{{ site.baseurl }}/support/groups/#remove-a-group-member" aria-label="Remove a group member">
+					<h3>Remove a group member</h3>
+					<p>Owners can remove members from a group. Removed users lose access to group‑only content; no ideas are deleted.</p>
+				</a>
+				<a class="card" href="{{ site.baseurl }}/support/account/#delete-your-account" aria-label="Delete your account">
+					<h3>Delete your account</h3>
+					<p>Permanently removes your data and signs you out.</p>
+				</a>
+			</div>
+			<p>Tip: These actions have privacy and access implications. Review the linked guides before proceeding.</p>
+			{% endif %}
 			{{ content }}
 		</main>
 

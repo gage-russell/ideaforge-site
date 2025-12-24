@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <!-- Base Cayman theme stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <!-- Custom style overlay -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+  </head>
+  <body>
+    <!-- Decorative brand row (no content changes) -->
+    <div class="site-brand">
+      <span class="dot"></span>
+      <span class="title">{{ site.title }}</span>
+      <span class="dot"></span>
+    </div>
+
+    <main class="main-container">
+      <div class="content-card">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <!-- Non-intrusive footer; no content changes -->
+      <span>&nbsp;</span>
+    </footer>
+  </body>
+</html>

@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-start: #0f172a; /* slate-900 */
-  --bg-end: #1e293b;   /* slate-800 */
-  --card-bg: rgba(255, 255, 255, 0.06);
-  --card-border: rgba(255, 255, 255, 0.14);
+  --bg-start: #0b1020;
+  --bg-end: #0f172a;   /* deep slate */
+  --card-bg: rgba(17, 24, 39, 0.55);
+  --card-border: rgba(255, 255, 255, 0.12);
   --text: #e5e7eb;     /* gray-200 */
   --muted: #94a3b8;    /* slate-400 */
-  --accent: #8b5cf6;   /* violet-500 */
+  --accent: #7c3aed;   /* violet-600 */
   --accent-2: #22d3ee; /* cyan-400 */
 }
 
@@ -20,7 +20,10 @@ body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
   color: var(--text);
-  background: radial-gradient(1200px 600px at 10% 0%, #0b1220 0%, var(--bg-start) 30%, var(--bg-end) 100%);
+  background:
+    radial-gradient(1200px 600px at 0% 0%, rgba(124, 58, 237, 0.09) 0%, transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(34, 211, 238, 0.08) 0%, transparent 60%),
+    linear-gradient(180deg, var(--bg-start) 0%, var(--bg-end) 100%);
   background-attachment: fixed;
 }
 
@@ -36,9 +39,9 @@ body {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 18px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   padding: 2rem 1.5rem;
 }
 
@@ -81,18 +84,18 @@ a {
 }
 
 a:hover {
-  color: #67e8f9; /* brighter cyan */
-  text-shadow: 0 0 6px rgba(34, 211, 238, 0.45);
+  color: #a78bfa; /* brighter violet */
+  text-shadow: 0 0 6px rgba(124, 58, 237, 0.35);
 }
 
 /* Make markdown images gorgeous by default */
 img {
   display: block;
-  max-width: 360px;
+  max-width: 460px;
   width: 100%;
   margin: 1rem auto;
   border-radius: 16px;
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55),
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.55),
               0 2px 10px rgba(139, 92, 246, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -119,29 +122,79 @@ hr {
 }
 
 /* Subtle decorative header without changing content */
-.site-brand {
+/* Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: rgba(2, 6, 23, 0.45);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 10;
+}
+
+.site-header__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+}
+
+.site-logo {
   display: flex;
   align-items: center;
   gap: 10px;
-  justify-content: center;
-  padding-top: 1.5rem;
 }
 
-.site-brand .dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  box-shadow: 0 0 12px rgba(139, 92, 246, 0.65);
+.site-logo img {
+  width: 36px;
+  height: 36px;
 }
 
-.site-brand .title {
+.site-title {
   font-weight: 700;
-  color: #fff;
   letter-spacing: -0.02em;
 }
 
-/* Footer -- keep minimal and non-intrusive */
+.site-nav a {
+  color: var(--text);
+  margin-left: 1rem;
+}
+
+.site-nav a:hover {
+  color: var(--accent-2);
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 2.5rem 1rem 1rem;
+}
+
+.hero__bg img {
+  display: block;
+  max-width: 180px;
+  opacity: 0.8;
+  margin: 0 auto 0.75rem auto;
+}
+
+.hero__content {
+  text-align: center;
+}
+
+.hero__title {
+  margin: 0.5rem 0 0.3rem 0;
+}
+
+.hero__subtitle {
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Footer */
 .site-footer {
   opacity: 0.75;
   text-align: center;

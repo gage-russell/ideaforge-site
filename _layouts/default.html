@@ -8,14 +8,35 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
     <!-- Custom style overlay -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}" />
+    <!-- Ensure relative asset paths in markdown work on GitHub Pages project sites -->
+    <base href="{{ site.baseurl }}/" />
   </head>
   <body>
-    <!-- Decorative brand row (no content changes) -->
-    <div class="site-brand">
-      <span class="dot"></span>
-      <span class="title">{{ site.title }}</span>
-      <span class="dot"></span>
-    </div>
+    <!-- Header / Navigation -->
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-logo" href="{{ site.baseurl }}/">
+          <img src="{{ '/assets/logo-removebg.png' | relative_url }}" alt="{{ site.title }} logo" />
+          <span class="site-title">{{ site.title }}</span>
+        </a>
+        <nav class="site-nav">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/support/">Support</a>
+          <a href="{{ site.baseurl }}/privacy-policy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero banner (uses site metadata only; no page text changes) -->
+    <section class="hero">
+      <div class="hero__bg">
+        <img src="{{ '/assets/banner-logo-removebg.png' | relative_url }}" alt="Ideaforge banner" />
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">{{ site.title }}</h1>
+        <p class="hero__subtitle">{{ site.description }}</p>
+      </div>
+    </section>
 
     <main class="main-container">
       <div class="content-card">
@@ -24,8 +45,9 @@
     </main>
 
     <footer class="site-footer">
-      <!-- Non-intrusive footer; no content changes -->
-      <span>&nbsp;</span>
+      <div class="site-footer__inner">
+        <span>© {{ site.time | date: '%Y' }} {{ site.title }}</span>
+      </div>
     </footer>
   </body>
-</html>
+  </html>

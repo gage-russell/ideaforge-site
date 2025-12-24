@@ -127,6 +127,36 @@ body {
 .site-main ul { padding-left: 1.25rem; }
 .site-main li { margin: 6px 0; }
 
+/* Collapsible images on Support page */
+.img-collapsible {
+	margin: 12px 0;
+}
+.img-collapsible summary {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 12px;
+	border: 1px solid var(--color-border);
+	border-radius: 10px;
+	background: #fff;
+	color: var(--color-muted);
+	cursor: pointer;
+	box-shadow: var(--shadow-sm);
+}
+.img-collapsible[open] summary {
+	background: #f8fafc;
+	color: var(--color-text);
+}
+.img-collapsible img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-top: 12px;
+	border-radius: 10px;
+	border: 1px solid var(--color-border);
+	box-shadow: var(--shadow-sm);
+}
+
 /* Cards (optional) */
 .card-grid { display: grid; grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) ); gap: 16px; }
 .card {

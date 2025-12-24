@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}" />
 		<meta name="theme-color" content="#45CCC5" />
 	</head>
-	<body>
+		<body class="{{ page.title | slugify }}">
 		<header class="site-header">
 			<div class="container header-inner">
 						<a class="brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
@@ -62,5 +62,6 @@
 				</p>
 			</div>
 		</footer>
+				<script src="{{ "/assets/js/site.js" | relative_url }}" defer></script>
 	</body>
 </html>

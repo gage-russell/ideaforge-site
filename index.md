@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ideaforge — AI-powered virtual idea incubator
+title: IDEA4GE — AI-powered virtual idea incubator
 ---
 
 Develop and nurture ideas with AI, then share and collaborate — your virtual incubator from concept to product.

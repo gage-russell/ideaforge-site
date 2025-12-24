@@ -19,7 +19,13 @@
 	<body>
 		<header class="site-header">
 			<div class="container header-inner">
-				<a class="brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+						<a class="brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
+							{% if site.logo %}
+							<img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" class="brand-logo" />
+							{% else %}
+							{{ site.title }}
+							{% endif %}
+						</a>
 				<nav class="nav">
 					<a href="{{ "/" | relative_url }}">Home</a>
 					<a href="{{ "/support" | relative_url }}">Support</a>

@@ -57,6 +57,12 @@ body {
 	letter-spacing: 0.2px;
 	text-decoration: none;
 }
+.brand-logo {
+	display: block;
+	height: 36px; /* banner height */
+	width: auto;
+	border-radius: 8px;
+}
 .nav { display: flex; gap: 18px; align-items: center; }
 .nav a {
 	color: var(--color-muted);

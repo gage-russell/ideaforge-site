@@ -39,14 +39,14 @@ Entrepreneurs and teams juggle notes, docs, and chat apps—none designed to gro
 	</div>
 	<div class="card">
 		<h3>🖥️ Cross‑platform</h3>
-		<p>Use IDEA4GE on the web today—with native apps coming soon.</p>
+		<p>Use IDEA4GE on the web or download the iOS app—Android coming soon.</p>
 	</div>
 	</div>
 
 ### Availability
 
 - Web: <a href="https://app.ideaforgetechnologies.com" target="_blank" rel="noopener">app.ideaforgetechnologies.com</a>
-- iOS: Coming soon
+- iOS: <a href="https://apps.apple.com/us/app/idea4ge/id6751444771" target="_blank" rel="noopener">Download on the App Store</a>
 - Android: Coming soon
 
 ### Learn more
